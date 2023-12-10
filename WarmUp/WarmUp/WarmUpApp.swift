@@ -12,7 +12,7 @@ import SwiftUI
 struct WarmUpApp: App {
     var body: some Scene {
         WindowGroup {
-            Modal()
+            MyApp()
         }
     }
 }
