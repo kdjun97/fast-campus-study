@@ -10,6 +10,8 @@ import SwiftUI
 
 struct FirstList: View {
     var body: some View {
+        Text("TO DELETE")
+        /*
         NavigationStack {
             List {
                 NavigationLink {
@@ -34,6 +36,7 @@ struct FirstList: View {
                 }
             }.navigationTitle("리스트")
         }
+        */
     }
 }
 

@@ -14,7 +14,8 @@ struct Navigation: View {
     @State var showModal: Bool = false
     
     var body: some View {
-        NavigationStack {
+        Text("TO DELETE")
+        /*NavigationStack {
             List {
                 ForEach([0,1], id: \.self) { index in
                     NavigationLink {
@@ -35,7 +36,7 @@ struct Navigation: View {
                 Text("아이템 추가 페이지")
             }
             .navigationTitle("네비게이션")
-        }
+        }*/
     }
 }
 
